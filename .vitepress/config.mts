@@ -60,6 +60,9 @@ export default defineConfig({
   description: "Learning Database",
   themeConfig: themeConfig,
   lastUpdated: true,
+  markdown: {
+    math: true
+  },
   vite: {// Vite 配置选项
     publicDir: '../.vitepress/public', // 相对于 docs 目录
     css: {
